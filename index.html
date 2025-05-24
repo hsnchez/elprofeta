@@ -80,93 +80,301 @@
             <p class="tip"><i class="fas fa-lightbulb"></i> ¡No olvides adjuntar tu CV para acceder a becas o descuentos exclusivos!</p>
         </section>
 
-        <!-- Testimonios -->
-        <section id="testimonios" class="section">
-            <h2>Lo que dicen nuestros estudiantes</h2>
-            <div class="testimonials">
-                <div class="testimonial">
-                    <img src="https://randomuser.me/api/portraits/women/45.jpg" alt="Testimonio 1">
-                    <blockquote>"Gracias a este diplomado, logré ascender en mi trabajo y aumentar mis ingresos en un 40%."</blockquote>
-                    <cite>- María G., Egresada de Marketing Digital</cite>
-                </div>
-                <div class="testimonial">
-                    <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Testimonio 2">
-                    <blockquote>"La flexibilidad de horarios me permitió trabajar y estudiar al mismo tiempo. ¡Totalmente recomendado!"</blockquote>
-                    <cite>- Carlos M., Estudiante de Programación</cite>
+        <!-- Sección de Testimonios -->
+        <section id="testimonios" class="section dark-bg">
+            <div class="container">
+                <h2>Lo que dicen nuestros estudiantes</h2>
+                <p class="section-subtitle">Experiencias reales de nuestros egresados que están transformando sus vidas</p>
+                
+                <div class="testimonials-grid">
+                    <!-- Testimonio 1 -->
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <div class="testimonial-quote">
+                                <i class="fas fa-quote-left"></i>
+                                <p>"Gracias a este diplomado, logré ascender en mi trabajo y aumentar mis ingresos en un 40%. La calidad de la enseñanza superó mis expectativas."</p>
+                            </div>
+                            <div class="testimonial-author">
+                                <img src="https://randomuser.me/api/portraits/women/45.jpg" alt="María G." class="testimonial-avatar">
+                                <div class="author-info">
+                                    <h4>María González</h4>
+                                    <p>Egresada de Marketing Digital</p>
+                                    <div class="testimonial-rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Testimonio 2 -->
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <div class="testimonial-quote">
+                                <i class="fas fa-quote-left"></i>
+                                <p>"La flexibilidad de horarios me permitió trabajar y estudiar al mismo tiempo. Los profesores son expertos en la industria y el material está muy actualizado."</p>
+                            </div>
+                            <div class="testimonial-author">
+                                <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Carlos M." class="testimonial-avatar">
+                                <div class="author-info">
+                                    <h4>Carlos Martínez</h4>
+                                    <p>Estudiante de Programación Full Stack</p>
+                                    <div class="testimonial-rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
 
         <!-- Preguntas Frecuentes -->
-        <section id="faq" class="section dark-bg">
-            <h2>Preguntas Frecuentes</h2>
-            <div class="faq-container">
-                <div class="faq-item">
-                    <h3>¿Cuáles son los requisitos de postulación? <i class="fas fa-chevron-down"></i></h3>
-                    <div class="faq-answer">
-                        <p>Los requisitos varían según el programa. Generalmente necesitarás documento de identidad, título de bachiller o certificado de estudios, y en algunos casos, experiencia laboral relacionada.</p>
+        <section id="faq" class="section">
+            <div class="container">
+                <h2>Preguntas Frecuentes</h2>
+                <p class="section-subtitle">Encuentra respuestas a las dudas más comunes sobre nuestros programas</p>
+                
+                <div class="faq-container">
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>¿Cuáles son los requisitos de postulación?</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <div class="faq-answer-content">
+                                <p>Los requisitos varían según el programa. Generalmente necesitarás:</p>
+                                <ul>
+                                    <li>Documento de identidad vigente</li>
+                                    <li>Título de bachiller o certificado de estudios</li>
+                                    <li>Experiencia laboral relacionada (en algunos programas)</li>
+                                    <li>Fotografía tamaño carné</li>
+                                </ul>
+                                <p>Te recomendamos contactar a nuestro equipo de asesores para información específica del programa de tu interés.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>¿Puedo pagar en cuotas?</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <div class="faq-answer-content">
+                                <p>Sí, ofrecemos varias opciones de pago para adaptarnos a tus necesidades:</p>
+                                <ul>
+                                    <li>Hasta 12 cuotas sin intereses con tarjeta de crédito</li>
+                                    <li>Transferencias bancarias</li>
+                                    <li>Pago en efectivo en nuestras instalaciones</li>
+                                    <li>Descuentos por pago al contado</li>
+                                </ul>
+                                <p>¡También ofrecemos becas y descuentos especiales para ciertos perfiles! Consulta con nuestro equipo de admisiones.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>¿Qué plazo tengo para completar la documentación?</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <div class="faq-answer-content">
+                                <p>El plazo para entregar la documentación completa es de 15 días hábiles a partir de la fecha de pago de la matrícula. Sin embargo, te recomendamos completar este proceso lo antes posible para asegurar tu cupo.</p>
+                                <p>Documentación requerida:</p>
+                                <ul>
+                                    <li>Copia de cédula de identidad</li>
+                                    <li>Fotocopia de título de bachiller o certificado de estudios</li>
+                                    <li>2 fotografías tamaño carné</li>
+                                    <li>Comprobante de pago de matrícula</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>¿Ofrecen certificación al finalizar los cursos?</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <div class="faq-answer-content">
+                                <p>Sí, todos nuestros programas incluyen certificación oficial al cumplir satisfactoriamente con los requisitos académicos establecidos. Nuestros certificados tienen validez oficial y son reconocidos por las principales instituciones educativas y empresas del país.</p>
+                                <p>Además, algunos de nuestros programas ofrecen doble certificación con instituciones internacionales asociadas.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>¿Puedo convalidar materias de otros estudios?</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <div class="faq-answer-content">
+                                <p>Sí, es posible convalidar materias siempre y cuando cumplan con los siguientes requisitos:</p>
+                                <ul>
+                                    <li>Haber sido cursadas en una institución reconocida</li>
+                                    <li>Tener una similitud del 80% o más con nuestros programas</li>
+                                    <li>Presentar los certificados y programas de estudio correspondientes</li>
+                                    <li>Haber aprobado la materia con una calificación mínima de 7/10</li>
+                                </ul>
+                                <p>Para iniciar el proceso de convalidación, agenda una cita con nuestro departamento académico.</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="faq-item">
-                    <h3>¿Puedo pagar en cuotas? <i class="fas fa-chevron-down"></i></h3>
-                    <div class="faq-answer">
-                        <p>Sí, ofrecemos planes de pago en hasta 12 cuotas sin intereses con tarjeta de crédito. También aceptamos transferencias bancarias y otros métodos de pago.</p>
-                    </div>
-                </div>
-                <div class="faq-item">
-                    <h3>¿Qué plazo tengo para completar la documentación? <i class="fas fa-chevron-down"></i></h3>
-                    <div class="faq-answer">
-                        <p>Una vez realizado el pago de la matrícula, tendrás 15 días hábiles para entregar toda la documentación requerida.</p>
-                    </div>
+
+                <div class="faq-cta">
+                    <p>¿No encontraste lo que buscabas?</p>
+                    <a href="#contacto" class="btn btn-primary">Contáctanos</a>
                 </div>
             </div>
         </section>
 
         <!-- Formulario de Contacto -->
-        <section id="formulario" class="section">
-            <h2>Solicita más información</h2>
-            <form class="contact-form">
-                <div class="form-group">
-                    <label for="nombre">Nombre completo *</label>
-                    <input type="text" id="nombre" name="nombre" required>
+        <section id="formulario" class="section contact-section">
+            <div class="contact-container">
+                <div class="contact-header">
+                    <h2>¿Tienes alguna pregunta?</h2>
+                    <p>Estamos aquí para ayudarte. Completa el formulario y nuestro equipo se pondrá en contacto contigo a la brevedad.</p>
                 </div>
-                <div class="form-group">
-                    <label for="email">Correo electrónico *</label>
-                    <input type="email" id="email" name="email" required>
+                
+                <div class="contact-wrapper">
+                    <!-- Información de contacto -->
+                    <div class="contact-info">
+                        <h2>Información de Contacto</h2>
+                        <div class="contact-details">
+                            <div class="contact-detail">
+                                <i class="fas fa-phone-alt"></i>
+                                <div class="contact-detail-content">
+                                    <h4>Teléfono</h4>
+                                    <a href="tel:+1234567890">+1 234 567 890</a>
+                                </div>
+                            </div>
+                            <div class="contact-detail">
+                                <i class="fas fa-envelope"></i>
+                                <div class="contact-detail-content">
+                                    <h4>Correo Electrónico</h4>
+                                    <a href="mailto:info@academiapro.edu">info@academiapro.edu</a>
+                                </div>
+                            </div>
+                            <div class="contact-detail">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <div class="contact-detail-content">
+                                    <h4>Dirección</h4>
+                                    <p>Av. Principal 123, Ciudad, País</p>
+                                    <a href="#" class="map-link">Ver en el mapa</a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="social-links">
+                            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    
+                    <!-- Formulario -->
+                    <div class="contact-form-container">
+                        <form class="contact-form" id="contactForm">
+                            <h3>Envíanos un mensaje</h3>
+                            <p>Todos los campos marcados con <span class="required">*</span> son obligatorios.</p>
+                            
+                            <div class="form-group">
+                                <label for="nombre" class="required">Nombre completo</label>
+                                <input type="text" id="nombre" name="nombre" class="form-control" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email" class="required">Correo electrónico</label>
+                                <input type="email" id="email" name="email" class="form-control" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="telefono">Teléfono</label>
+                                <input type="tel" id="telefono" name="telefono" class="form-control">
+                                <small>Incluye el código de país y área</small>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="asunto" class="required">Asunto</label>
+                                <select id="asunto" name="asunto" class="form-control" required>
+                                    <option value="">Selecciona un asunto</option>
+                                    <option value="informacion">Solicitar información</option>
+                                    <option value="admisiones">Admisiones</option>
+                                    <option value="pagos">Consulta sobre pagos</option>
+                                    <option value="otro">Otro</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="curso" class="required">Curso de interés</label>
+                                <select id="curso" name="curso" class="form-control" required>
+                                    <option value="">Selecciona un curso</option>
+                                    <option value="marketing">Marketing Digital</option>
+                                    <option value="programacion">Programación Web</option>
+                                    <option value="diseno">Diseño Gráfico</option>
+                                    <option value="negocios">Administración de Empresas</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="modalidad">Modalidad preferida</label>
+                                <select id="modalidad" name="modalidad" class="form-control">
+                                    <option value="">Selecciona una opción</option>
+                                    <option value="online">En línea</option>
+                                    <option value="presencial">Presencial</option>
+                                    <option value="hibrida">Híbrida</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group full-width">
+                                <label for="mensaje" class="required">Mensaje</label>
+                                <textarea id="mensaje" name="mensaje" class="form-control" rows="5" required></textarea>
+                            </div>
+                            
+                            <div class="form-group full-width">
+                                <label>Adjuntar archivo (opcional)</label>
+                                <div class="file-input-container">
+                                    <input type="file" id="archivo" name="archivo" class="file-input" accept=".pdf,.doc,.docx,.jpg,.png">
+                                    <label for="archivo" class="file-input-label">
+                                        <span class="file-input-text">Seleccionar archivo...</span>
+                                        <span class="file-input-button">Examinar</span>
+                                    </label>
+                                    <small class="file-name" id="fileName">Ningún archivo seleccionado</small>
+                                    <small>Formatos aceptados: PDF, DOC, DOCX, JPG, PNG (máx. 5MB)</small>
+                                </div>
+                            </div>
+                            
+                            <div class="form-group full-width">
+                                <div class="form-check">
+                                    <input type="checkbox" id="privacidad" name="privacidad" class="form-check-input" required>
+                                    <label for="privacidad" class="form-check-label">He leído y acepto la <a href="#" class="privacy-link">Política de Privacidad</a></label>
+                                </div>
+                            </div>
+                            
+                            <div class="form-actions">
+                                <button type="submit" class="btn-submit">
+                                    <i class="fas fa-paper-plane"></i> Enviar mensaje
+                                </button>
+                            </div>
+                        </form>
+                    </div>
                 </div>
-                <div class="form-group">
-                    <label for="telefono">Teléfono</label>
-                    <input type="tel" id="telefono" name="telefono">
-                </div>
-                <div class="form-group">
-                    <label for="curso">Curso de interés *</label>
-                    <select id="curso" name="curso" required>
-                        <option value="">Selecciona un curso</option>
-                        <option value="marketing">Marketing Digital</option>
-                        <option value="programacion">Programación Web</option>
-                        <option value="diseno">Diseño Gráfico</option>
-                        <option value="negocios">Administración de Empresas</option>
-                    </select>
-                </div>
-                <div class="form-group">
-                    <label for="modalidad">Modalidad preferida</label>
-                    <select id="modalidad" name="modalidad">
-                        <option value="online">En línea</option>
-                        <option value="presencial">Presencial</option>
-                        <option value="hibrida">Híbrida</option>
-                    </select>
-                </div>
-                <div class="form-group">
-                    <label for="cv">Adjuntar CV (opcional)</label>
-                    <input type="file" id="cv" name="cv" accept=".pdf,.doc,.docx">
-                    <small>Formatos aceptados: PDF, DOC, DOCX (máx. 5MB)</small>
-                </div>
-                <div class="form-group">
-                    <label for="mensaje">Mensaje adicional</label>
-                    <textarea id="mensaje" name="mensaje" rows="4"></textarea>
-                </div>
-                <button type="submit" class="btn btn-cta">Enviar solicitud</button>
-            </form>
+            </div>
         </section>
     </main>
 
@@ -211,51 +419,417 @@
     
     <!-- Scripts -->
     <script>
-        // Toggle para las preguntas frecuentes
-        document.querySelectorAll('.faq-item h3').forEach(question => {
-            question.addEventListener('click', () => {
-                const answer = question.nextElementSibling;
-                const icon = question.querySelector('i');
-                
-                // Cerrar otras respuestas
-                document.querySelectorAll('.faq-answer').forEach(item => {
-                    if (item !== answer) {
-                        item.style.display = 'none';
-                        item.previousElementSibling.querySelector('i').classList.remove('fa-chevron-up');
-                        item.previousElementSibling.querySelector('i').classList.add('fa-chevron-down');
-                    }
+        // Función para manejar el envío del formulario
+        function handleFormSubmit(e) {
+            e.preventDefault();
+            
+            const form = e.target;
+            const formData = new FormData(form);
+            const submitButton = form.querySelector('button[type="submit"]');
+            const originalButtonText = submitButton.innerHTML;
+            
+            // Mostrar estado de carga
+            submitButton.disabled = true;
+            submitButton.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Enviando...';
+            
+            // Simular envío del formulario (reemplazar con tu lógica de envío real)
+            setTimeout(() => {
+                // Mostrar mensaje de éxito
+                Swal.fire({
+                    title: '¡Mensaje enviado!',
+                    text: 'Hemos recibido tu mensaje. Nos pondremos en contacto contigo pronto.',
+                    icon: 'success',
+                    confirmButtonText: 'Aceptar',
+                    confirmButtonColor: '#005B96'
                 });
                 
-                // Alternar la respuesta actual
-                if (answer.style.display === 'block') {
-                    answer.style.display = 'none';
-                    icon.classList.remove('fa-chevron-up');
-                    icon.classList.add('fa-chevron-down');
-                } else {
-                    answer.style.display = 'block';
-                    icon.classList.remove('fa-chevron-down');
-                    icon.classList.add('fa-chevron-up');
+                // Restaurar el botón
+                submitButton.disabled = false;
+                submitButton.innerHTML = originalButtonText;
+                
+                // Resetear el formulario
+                form.reset();
+                document.getElementById('fileName').textContent = 'Ningún archivo seleccionado';
+                
+            }, 1500);
+        }
+        
+        // Inicialización cuando el DOM esté listo
+        document.addEventListener('DOMContentLoaded', function() {
+            // Manejar la visualización del nombre del archivo seleccionado
+            const fileInput = document.getElementById('archivo');
+            const fileNameElement = document.getElementById('fileName');
+            
+            if (fileInput && fileNameElement) {
+                fileInput.addEventListener('change', function() {
+                    if (this.files && this.files.length > 0) {
+                        fileNameElement.textContent = this.files[0].name;
+                        
+                        // Validar tamaño del archivo (máx 5MB)
+                        const maxSize = 5 * 1024 * 1024; // 5MB en bytes
+                        if (this.files[0].size > maxSize) {
+                            Swal.fire({
+                                title: 'Archivo demasiado grande',
+                                text: 'El archivo no debe superar los 5MB.',
+                                icon: 'error',
+                                confirmButtonText: 'Aceptar',
+                                confirmButtonColor: '#005B96'
+                            });
+                            this.value = ''; // Limpiar el input
+                            fileNameElement.textContent = 'Ningún archivo seleccionado';
+                        }
+                    } else {
+                        fileNameElement.textContent = 'Ningún archivo seleccionado';
+                    }
+                });
+            }
+            
+            // Inicializar el formulario
+            const contactForm = document.getElementById('contactForm');
+            if (contactForm) {
+                contactForm.addEventListener('submit', handleFormSubmit);
+                
+                // Validación en tiempo real
+                const inputs = contactForm.querySelectorAll('input, textarea, select');
+                inputs.forEach(input => {
+                    // Validar al perder el foco
+                    input.addEventListener('blur', function() {
+                        validateField(this);
+                    });
+                    
+                    // Limpiar mensajes de error al enfocar
+                    input.addEventListener('focus', function() {
+                        const formGroup = this.closest('.form-group');
+                        if (formGroup) {
+                            formGroup.classList.remove('error');
+                            const errorMsg = formGroup.querySelector('.error-message');
+                            if (errorMsg) errorMsg.remove();
+                        }
+                    });
+                });
+                
+                // Función para validar campos individuales
+                function validateField(field) {
+                    const formGroup = field.closest('.form-group');
+                    if (!formGroup) return;
+                    
+                    // Limpiar errores previos
+                    formGroup.classList.remove('error');
+                    const existingError = formGroup.querySelector('.error-message');
+                    if (existingError) existingError.remove();
+                    
+                    // Validar campo requerido
+                    if (field.required && !field.value.trim()) {
+                        showError(formGroup, 'Este campo es obligatorio');
+                        return false;
+                    }
+                    
+                    // Validar email
+                    if (field.type === 'email' && field.value) {
+                        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+                        if (!emailRegex.test(field.value)) {
+                            showError(formGroup, 'Por favor ingresa un correo electrónico válido');
+                            return false;
+                        }
+                    }
+                    
+                    // Validar teléfono (formato básico)
+                    if (field.type === 'tel' && field.value) {
+                        const phoneRegex = /^[0-9\s+\-()]{8,20}$/;
+                        if (!phoneRegex.test(field.value)) {
+                            showError(formGroup, 'Por favor ingresa un número de teléfono válido');
+                            return false;
+                        }
+                    }
+                    
+                    // Validar checkbox de privacidad
+                    if (field.type === 'checkbox' && field.required && !field.checked) {
+                        showError(formGroup, 'Debes aceptar la política de privacidad');
+                        return false;
+                    }
+                    
+                    // Si pasa todas las validaciones
+                    formGroup.classList.add('success');
+                    return true;
+                }
+                
+                // Función para mostrar mensajes de error
+                function showError(formGroup, message) {
+                    formGroup.classList.add('error');
+                    const errorElement = document.createElement('div');
+                    errorElement.className = 'error-message';
+                    errorElement.style.color = '#e74c3c';
+                    errorElement.style.fontSize = '0.8rem';
+                    errorElement.style.marginTop = '0.3rem';
+                    errorElement.textContent = message;
+                    formGroup.appendChild(errorElement);
+                }
+                
+                // Validar todo el formulario antes de enviar
+                function validateForm() {
+                    let isValid = true;
+                    const requiredFields = contactForm.querySelectorAll('[required]');
+                    
+                    requiredFields.forEach(field => {
+                        if (!validateField(field)) {
+                            isValid = false;
+                        }
+                    });
+                    
+                    return isValid;
+                }
+                
+                // Sobrescribir la función de manejo de envío para incluir validación
+                contactForm.onsubmit = function(e) {
+                    if (!validateForm()) {
+                        e.preventDefault();
+                        // Desplazarse al primer error
+                        const firstError = contactForm.querySelector('.error');
+                        if (firstError) {
+                            firstError.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                        }
+                        return false;
+                    }
+                    return handleFormSubmit(e);
+                };
+            }
+            
+            // Inicializar el acordeón de preguntas frecuentes
+            const faqItems = document.querySelectorAll('.faq-item');
+            
+            // Función para cerrar todos los ítems excepto el especificado
+            const closeOtherItems = (currentItem) => {
+                faqItems.forEach(item => {
+                    if (item !== currentItem) {
+                        const answer = item.querySelector('.faq-answer');
+                        const icon = item.querySelector('i.fa-chevron-down');
+                        item.classList.remove('active');
+                        if (answer) answer.style.maxHeight = '0';
+                        if (icon) icon.style.transform = 'rotate(0deg)';
+                    }
+                });
+            };
+            
+            // Inicializar cada ítem del acordeón
+            faqItems.forEach(item => {
+                const question = item.querySelector('.faq-question');
+                const answer = item.querySelector('.faq-answer');
+                const icon = question ? question.querySelector('i.fa-chevron-down') : null;
+                
+                // Cerrar todas las respuestas al cargar la página
+                if (answer) answer.style.maxHeight = '0';
+                
+                // Manejar clic en la pregunta
+                if (question) {
+                    question.addEventListener('click', () => {
+                        const isActive = item.classList.contains('active');
+                        
+                        // Cerrar otros ítems si se está abriendo este
+                        if (!isActive) {
+                            closeOtherItems(item);
+                        }
+                        
+                        // Alternar estado actual
+                        item.classList.toggle('active');
+                        
+                        // Animar icono y respuesta
+                        if (icon) {
+                            icon.style.transform = isActive ? 'rotate(0deg)' : 'rotate(180deg)';
+                        }
+                        
+                        if (answer) {
+                            answer.style.maxHeight = !isActive ? answer.scrollHeight + 'px' : '0';
+                        }
+                    });
                 }
             });
-        });
-        
-        // Cerrar respuestas al cargar la página
-        document.addEventListener('DOMContentLoaded', () => {
-            document.querySelectorAll('.faq-answer').forEach(answer => {
-                answer.style.display = 'none';
+            
+            // Ajustar altura de las respuestas al redimensionar la ventana
+            const resizeHandler = () => {
+                document.querySelectorAll('.faq-item.active').forEach(activeItem => {
+                    const answer = activeItem.querySelector('.faq-answer');
+                    if (answer) {
+                        answer.style.maxHeight = answer.scrollHeight + 'px';
+                    }
+                });
+            };
+            
+            // Agregar event listener para redimensionamiento
+            window.addEventListener('resize', resizeHandler);
+            
+            // Animación suave para los enlaces de navegación
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    const targetId = this.getAttribute('href');
+                    if (targetId === '#' || targetId === '#!') return;
+                    
+                    const targetElement = document.querySelector(targetId);
+                    if (targetElement) {
+                        e.preventDefault();
+                        window.scrollTo({
+                            top: targetElement.offsetTop - 100,
+                            behavior: 'smooth'
+                        });
+                        
+                        // Actualizar la URL sin recargar la página
+                        if (history.pushState) {
+                            history.pushState(null, null, targetId);
+                        } else {
+                            location.hash = targetId;
+                        }
+                    }
+                });
             });
+            
+            // Validación del formulario
+            const form = document.querySelector('.contact-form');
+            if (form) {
+                form.addEventListener('submit', function(e) {
+                    e.preventDefault();
+                    // Aquí iría la lógica de envío del formulario
+                    alert('¡Gracias por tu interés! Nos pondremos en contacto contigo pronto.');
+                    form.reset();
+                });
+            }
         });
-        
-        // Validación del formulario
-        const form = document.querySelector('.contact-form');
-        if (form) {
-            form.addEventListener('submit', function(e) {
-                e.preventDefault();
-                // Aquí iría la lógica de envío del formulario
-                alert('¡Gracias por tu interés! Nos pondremos en contacto contigo pronto.');
-                form.reset();
+    </script>
+    
+    <!-- Botón de Chat Flotante -->
+    <div class="chatbot-container">
+        <div class="chatbot-button" id="chatbotButton">
+            <i class="fas fa-comment-dots"></i>
+        </div>
+        <div class="chatbot-window" id="chatbotWindow">
+            <div class="chatbot-header">
+                <div class="chatbot-avatar">
+                    <i class="fas fa-robot"></i>
+                </div>
+                <div class="chatbot-info">
+                    <h4>Asistente Virtual</h4>
+                    <p>Estamos en línea</p>
+                </div>
+                <button class="chatbot-close" id="chatbotClose">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="chatbot-messages" id="chatbotMessages">
+                <div class="chatbot-message bot">
+                    <div class="message-avatar">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <div class="message-content">
+                        <p>¡Hola! Soy el asistente virtual de Academia Pro. ¿En qué puedo ayudarte hoy?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="chatbot-input">
+                <input type="text" id="chatbotInput" placeholder="Escribe tu mensaje..." autocomplete="off">
+                <button id="chatbotSend">
+                    <i class="fas fa-paper-plane"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        // Funcionalidad del Chatbot
+        document.addEventListener('DOMContentLoaded', function() {
+            const chatbotButton = document.getElementById('chatbotButton');
+            const chatbotWindow = document.getElementById('chatbotWindow');
+            const chatbotClose = document.getElementById('chatbotClose');
+            const chatbotSend = document.getElementById('chatbotSend');
+            const chatbotInput = document.getElementById('chatbotInput');
+            const chatbotMessages = document.getElementById('chatbotMessages');
+            
+            // Mostrar/ocultar ventana de chat
+            chatbotButton.addEventListener('click', function() {
+                chatbotWindow.classList.toggle('active');
+                if (chatbotWindow.classList.contains('active')) {
+                    chatbotInput.focus();
+                }
             });
-        }
+            
+            chatbotClose.addEventListener('click', function(e) {
+                e.stopPropagation();
+                chatbotWindow.classList.remove('active');
+            });
+            
+            // Enviar mensaje al presionar Enter
+            chatbotInput.addEventListener('keypress', function(e) {
+                if (e.key === 'Enter' && this.value.trim() !== '') {
+                    sendMessage(this.value);
+                    this.value = '';
+                }
+            });
+            
+            // Enviar mensaje al hacer clic en el botón
+            chatbotSend.addEventListener('click', function() {
+                if (chatbotInput.value.trim() !== '') {
+                    sendMessage(chatbotInput.value);
+                    chatbotInput.value = '';
+                }
+            });
+            
+            // Función para enviar mensaje
+            function sendMessage(message) {
+                // Agregar mensaje del usuario
+                addMessage('user', message);
+                
+                // Simular respuesta del bot después de un breve retraso
+                setTimeout(() => {
+                    const response = getBotResponse(message);
+                    addMessage('bot', response);
+                    // Desplazar al final de los mensajes
+                    chatbotMessages.scrollTop = chatbotMessages.scrollHeight;
+                }, 800);
+                
+                // Desplazar al final de los mensajes
+                chatbotMessages.scrollTop = chatbotMessages.scrollHeight;
+            }
+            
+            // Función para agregar un mensaje al chat
+            function addMessage(sender, text) {
+                const messageDiv = document.createElement('div');
+                messageDiv.className = `chatbot-message ${sender}`;
+                
+                const avatarHtml = `
+                    <div class="message-avatar">
+                        <i class="fas fa-${sender === 'bot' ? 'robot' : 'user'}"></i>
+                    </div>
+                `;
+                
+                messageDiv.innerHTML = `
+                    ${sender === 'bot' ? avatarHtml : ''}
+                    <div class="message-content">
+                        <p>${text}</p>
+                    </div>
+                    ${sender === 'user' ? avatarHtml : ''}
+                `;
+                
+                chatbotMessages.appendChild(messageDiv);
+            }
+            
+            // Función para obtener respuesta del bot (simulada)
+            function getBotResponse(message) {
+                const lowerMessage = message.toLowerCase();
+                
+                if (lowerMessage.includes('hola') || lowerMessage.includes('buenos días') || lowerMessage.includes('buenas tardes')) {
+                    return '¡Hola! ¿En qué puedo ayudarte hoy?';
+                } else if (lowerMessage.includes('cursos') || lowerMessage.includes('programas')) {
+                    return 'Ofrecemos varios programas educativos. ¿Te interesa algún área en particular como programación, diseño o negocios?';
+                } else if (lowerMessage.includes('precio') || lowerMessage.includes('costo')) {
+                    return 'Los precios varían según el programa. ¿Te gustaría que te enviemos información detallada sobre los costos?';
+                } else if (lowerMessage.includes('horario') || lowerMessage.includes('cuándo')) {
+                    return 'Tenemos horarios flexibles, incluyendo turnos mañana, tarde y noche. ¿Cuál te acomoda mejor?';
+                } else if (lowerMessage.includes('contacto') || lowerMessage.includes('hablar')) {
+                    return 'Puedes contactarnos al teléfono +1 234 567 890 o al correo info@academiapro.edu. También puedes dejar tus datos en el formulario de contacto.';
+                } else if (lowerMessage.includes('gracias')) {
+                    return '¡De nada! ¿Hay algo más en lo que pueda ayudarte?';
+                } else {
+                    return 'Gracias por tu mensaje. Un asesor se pondrá en contacto contigo pronto para ayudarte con tu consulta.';
+                }
+            }
+        });
     </script>
 </body>
 </html>
